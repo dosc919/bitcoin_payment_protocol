@@ -1,8 +1,0 @@
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/CMakeFiles/bitcoin_app.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/CMakeFiles/rebuild_cache.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/CMakeFiles/daps.dir
-/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/CMakeFiles/edit_cache.dir
