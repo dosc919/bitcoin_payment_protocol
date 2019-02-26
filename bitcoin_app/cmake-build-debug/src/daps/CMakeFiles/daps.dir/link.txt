@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdaps.a  CMakeFiles/daps.dir/daps.c.o
+/usr/bin/ranlib libdaps.a

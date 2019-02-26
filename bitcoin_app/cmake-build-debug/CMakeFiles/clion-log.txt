@@ -1,0 +1,5 @@
+/snap/clion/61/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dominik/projects/2017_master_schreilechner/code/bitcoin_app
+-- Boost version: 1.65.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug

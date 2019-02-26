@@ -1,0 +1,85 @@
+New Provider:
+Mnemonic:
+equip address calm seed priority garden fade thing axis used couch abuse
+Address: miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W
+
+New Client (id = 0):
+Mnemonic:
+shop convince absorb invite black myself harsh mother skin subject supply prefer
+Address: mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6
+
+the number of transactions (addresses for the DAPS) is currently set to: 10
+
+Please choose an option:
+1) create a deposit only
+2) create a deposit and make payments
+3) make payments with an existing deposit
+4) exit
+1
+please enter the hash of a transaction with an unspend transaction output (utxo) to create the deposit:
+17c824fa855ef9e5a52db686cbb3ff561a10910f339867b4402314dc3c6a0204
+please enter the output index of the utxo: 1
+
+client balance: 104620000 Satoshi
+please enter the amount of Satoshi (1 Bitcoin = 100,000,000 Satoshi) to spent: 1000000
+please enter the lock time for the deposit in days: 1
+the deposit is locked until 1520796461 unix time. Please note the time or otherwise the deposit will become unspendable once the application has exited.
+
+Connection Succeeded
+transaction broadcast: success
+
+New Deposit (client id = 0):
+transaction hash:
+72b5487f6100de43ab134d8f9c9a1dc31804cb683c758dfb4a12ac7e13ef31ba
+input transaction:
+17c824fa855ef9e5a52db686cbb3ff561a10910f339867b4402314dc3c6a0204 index: 1
+output adresses:
+33V4JoEbSrQczw1n2QqaUXvLZQ6F9uWXFz : 1000000 Satoshis
+mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6 : 101810000 Satoshis
+
+deposit created
+
+New Provider:
+Mnemonic:
+equip address calm seed priority garden fade thing axis used couch abuse
+Address: miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W
+
+New Client (id = 0):
+Mnemonic:
+shop convince absorb invite black myself harsh mother skin subject supply prefer
+Address: mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6
+
+the number of transactions (addresses for the DAPS) is currently set to: 10
+
+Please choose an option:
+1) create a deposit only
+2) create a deposit and make payments
+3) make payments with an existing deposit
+4) exit
+please enter the deposit transaction hash:
+72b5487f6100de43ab134d8f9c9a1dc31804cb683c758dfb4a12ac7e13ef31ba
+
+please enter the lock time of the deposit: please enter the amount of Satoshi (1 Bitcoin = 100,000,000 Satoshi) placed in the deposit: 
+1000000
+
+Connection Succeeded
+
+New initial state (provider):
+expire time   : 1520796461
+satoshis limit: 500000
+satoshis spent: 0
+revision nr.  : 0
+client id     : 0
+deposit transaction hash:
+72b5487f6100de43ab134d8f9c9a1dc31804cb683c758dfb4a12ac7e13ef31ba
+
+Please choose an option:
+1) make transactions
+2) double-spent
+3) close deposit
+4) reclaim deposit
+5) exit
+4
+
+transaction broadcast: success
+exiting

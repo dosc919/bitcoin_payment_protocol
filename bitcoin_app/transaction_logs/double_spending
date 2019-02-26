@@ -1,0 +1,149 @@
+New Provider:
+Mnemonic:
+equip address calm seed priority garden fade thing axis used couch abuse
+Address: miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W
+
+New Client (id = 0):
+Mnemonic:
+shop convince absorb invite black myself harsh mother skin subject supply prefer
+Address: mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6
+
+Please choose an option:
+1) create a deposit only
+2) create a deposit and make payments
+3) make payments with an existing deposit
+4) exit
+2
+please enter the hash of a transaction with an unspend transaction output (utxo) to create the deposit:
+0c6e6654b94ff2a0d5ab7c59baaf567e052add3b2a69c934995b79114cde28a2
+please enter the output index of the utxo: 1
+
+client balance: 106640000 Satoshis
+please enter the amount of Satoshi (1 Bitcoin = 100,000,000 Satoshi) to spent: 1000000
+please enter the lock time for the deposit in days: 1
+the deposit is locked until 1520436768 unix time. Please note the time or otherwise the deposit will become unspendable once the application has exited.
+
+Connection Succeeded
+transaction broadcast: success
+
+New Deposit (client id = 0):
+transaction hash:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305
+input transaction:
+0c6e6654b94ff2a0d5ab7c59baaf567e052add3b2a69c934995b79114cde28a2 index: 1
+output adresses:
+3P3MN4i4f2kFe4QjkYidtsCs5fChR8zXwa : 1000000 Satoshis
+mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6 : 104840000 Satoshis
+
+Connection Succeeded
+Error Code: object does not exist
+error creating initial state
+do you want to try again? (0 = yes, 1 = no)
+0
+
+Connection Succeeded
+
+New initial state (provider):
+expire time   : 1520436768
+satoshis limit: 500000
+satoshis spent: 0
+revision nr.  : 0
+client id     : 0
+deposit transaction hash:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305
+
+Please choose an option:
+1) make transactions
+2) double-spent
+3) close deposit
+4) reclaim deposit
+5) exit
+1
+please choose a point of sale (0 - 4): 1
+please enter Satoshi (1 Bitcoin = 100,000,000 Satoshi) to spent: 100000
+
+New Transaction (client id = 0):
+revision nr.: 0
+random nr.  : dd a5 71 ff ba bb 8e be ec 5c 56 9a ee e8 bf 72 c4 3f 79 74 2d 21 ff b0 a9 47 7e dd 0a b7 ad ca 
+input transaction:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305 index: 0
+output adresses:
+miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W : 100000 Satoshis
+mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6 : 890000 Satoshis
+
+New State (point of sale id = 1):
+expire time   : 1520436768
+satoshis limit: 500000
+satoshis spent: 100000
+revision nr.  : 1
+client id     : 0
+deposit transaction hash:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305
+
+Please choose an option:
+1) make transactions
+2) double-spent
+3) close deposit
+4) reclaim deposit
+5) exit
+2
+please choose a point of sale (0 - 4): 3
+please enter Satoshi (1 Bitcoin = 100,000,000 Satoshi) to spent: 250000
+
+New Transaction (client id = 0):
+revision nr.: 1
+random nr.  : d5 0d 36 ae f0 04 33 8d e4 77 74 57 d3 ee e2 a9 d5 79 2c 4c b7 dd 6a 7e 68 b0 97 2f 36 80 89 1f 
+input transaction:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305 index: 0
+output adresses:
+miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W : 350000 Satoshis
+mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6 : 640000 Satoshis
+
+New State (point of sale id = 3):
+expire time   : 1520436768
+satoshis limit: 500000
+satoshis spent: 350000
+revision nr.  : 2
+client id     : 0
+deposit transaction hash:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305
+
+Please choose an option:
+1) make transactions
+2) double-spent
+3) close deposit
+4) reclaim deposit
+5) exit
+1
+please choose a point of sale (0 - 4): 0
+please enter Satoshi (1 Bitcoin = 100,000,000 Satoshi) to spent: 150000
+
+New Transaction (client id = 0):
+revision nr.: 1
+random nr.  : 87 bb 59 b1 4d b0 b6 2e ce e3 fa ca a4 c1 a8 bf 44 cb 81 32 ab 22 1b eb c6 60 63 8d 6f be 18 cc 
+input transaction:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305 index: 0
+output adresses:
+miv8cV8pwU9CagsW7yMpqvHcUeh47YTM4W : 250000 Satoshis
+mpZfrRvDxSct69T77AgkRAF4LeJqQ5nyQ6 : 740000 Satoshis
+
+New State (point of sale id = 0):
+expire time   : 1520436768
+satoshis limit: 500000
+satoshis spent: 250000
+revision nr.  : 2
+client id     : 0
+deposit transaction hash:
+6b5e385aea1bb5129aef0f42b8c4e511c5e18e1891413fe998182ade1783b305
+
+Please choose an option:
+1) make transactions
+2) double-spent
+3) close deposit
+4) reclaim deposit
+5) exit
+3
+
+client private key extracted!
+transaction broadcast: success
+exiting

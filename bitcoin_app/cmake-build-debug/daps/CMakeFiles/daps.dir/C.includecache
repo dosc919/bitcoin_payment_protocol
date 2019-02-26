@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/const_and_error.h
+
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/daps.c
+daps.h
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/daps.h
+openssl/err.h
+-
+openssl/sha.h
+-
+string.h
+-
+openssl/kdf.h
+-
+
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/daps.h
+openssl/evp.h
+-
+data_structures.h
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/data_structures.h
+const_and_error.h
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/const_and_error.h
+
+/home/dominik/projects/2017_master_schreilechner/code/daps/src/data_structures.h
+stdint.h
+-
+openssl/ec.h
+-
+

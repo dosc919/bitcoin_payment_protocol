@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bitcoin_app"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\..\;CMake Files\..\daps\;CMake Files\..\daps\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitcoin_app">
+				<Option output="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/bitcoin_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_BOOST"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 bitcoin_app"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitcoin_app/fast">
+				<Option output="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/bitcoin_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_BOOST"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 bitcoin_app/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daps">
+				<Option output="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/libdaps.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 daps"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daps/fast">
+				<Option output="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/libdaps.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 daps/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/cmake-build-debug/src/daps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/client.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/client.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/defines.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/hd_wallet_testnet.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/hd_wallet_testnet.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/main.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/point_of_sale.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/point_of_sale.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/provider.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/provider.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/state.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/state.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/statedata.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/statedata.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/transaction.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/transaction.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/transactiondata.cpp">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/transactiondata.h">
+			<Option target="bitcoin_app"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/daps/src/const_and_error.h">
+			<Option target="daps"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/daps/src/daps.c">
+			<Option target="daps"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/daps/src/daps.h">
+			<Option target="daps"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/daps/src/data_structures.h">
+			<Option target="daps"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/dominik/projects/2017_master_schreilechner/code/bitcoin_app/../daps/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\daps\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
